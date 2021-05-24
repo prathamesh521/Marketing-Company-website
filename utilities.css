@@ -1,0 +1,36 @@
+:root{
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color:#fff;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
